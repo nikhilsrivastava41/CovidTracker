@@ -15,6 +15,7 @@ class App extends Component {
   render(){
     return (
       <div className="container">
+        <h1 className="heading">Covid19 Tracker</h1>
         <Cards data={this.state.data}/>
         <CountryPicker/>
         <Chart/>
